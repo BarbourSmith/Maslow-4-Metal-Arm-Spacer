@@ -2,6 +2,86 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Outline",
+            "x": 157,
+            "y": 104,
+            "uniqueID": 659965,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 102,
+                    "y": 76,
+                    "uniqueID": 648994,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 90
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 117,
+                    "y": 172,
+                    "uniqueID": 897324,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 77,
+                    "y": 258,
+                    "uniqueID": 873816,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 69.5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 719,
+                    "y": 261,
+                    "uniqueID": 285268,
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": ""
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 873816,
+                    "ap2ID": 285268
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Maslow 4 Metal Arm Spacer",
             "x": 0,
             "y": 0,
@@ -9,6 +89,14 @@
             "ioValues": [],
             "topLevel": true,
             "allAtoms": [
+                {
+                    "atomType": "Molecule",
+                    "name": "Outline",
+                    "x": 157,
+                    "y": 104,
+                    "uniqueID": 659965,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
