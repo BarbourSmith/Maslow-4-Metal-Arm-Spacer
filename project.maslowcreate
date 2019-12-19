@@ -102,6 +102,10 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 4",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 1",
                             "ioValue": 10
                         },
@@ -111,10 +115,6 @@
                         },
                         {
                             "name": "3D shape 3",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 4",
                             "ioValue": 10
                         }
                     ],
@@ -233,6 +233,15 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 677,
+                    "y": 109,
+                    "uniqueID": 658920,
+                    "ioValues": [],
+                    "selectedColorIndex": "10"
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -243,9 +252,16 @@
             "allConnectors": [
                 {
                     "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 659965,
+                    "ap2ID": 658920
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 659965
+                    "ap1ID": 658920
                 }
             ],
             "fileTypeVersion": 1
