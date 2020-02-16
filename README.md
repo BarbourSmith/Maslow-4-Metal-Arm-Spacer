@@ -4,12 +4,3 @@
 
 ![](/project.svg)
 
-## Maslow 4 Metal Arm Spacer
-
-
-## Outline
-
-
-## Cutaways
-
-
