@@ -1,50 +1,17 @@
 {
-    "molecules": [
-        {
-            "atomType": "Molecule",
-            "name": "Cutaways",
-            "x": 0.6185944363103953,
-            "y": 0.210727969348659,
-            "uniqueID": 163778,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 589,
-                    "y": 114,
-                    "uniqueID": 857043,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 69.5
-                        }
-                    ]
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 857043
-                }
-            ],
-            "fileTypeVersion": 1
-        },
+    "atomType": "Molecule",
+    "name": "Maslow 4 Metal Arm Spacer",
+    "x": 0,
+    "y": 0,
+    "uniqueID": 858002,
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [
         {
             "atomType": "Molecule",
             "name": "Outline",
-            "x": 0.20717423133235727,
-            "y": 0.49808429118773945,
+            "x": 0.2049780380673499,
+            "y": 0.5019157088122606,
             "uniqueID": 659965,
             "ioValues": [],
             "topLevel": false,
@@ -87,6 +54,10 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 4",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 1",
                             "ioValue": 10
                         },
@@ -96,10 +67,6 @@
                         },
                         {
                             "name": "3D shape 3",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 4",
                             "ioValue": 10
                         }
                     ],
@@ -132,7 +99,39 @@
                     "x": 0.6185944363103953,
                     "y": 0.210727969348659,
                     "uniqueID": 163778,
-                    "ioValues": []
+                    "ioValues": [],
+                    "topLevel": false,
+                    "allAtoms": [
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.9853587115666179,
+                            "y": 0.5,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 589,
+                            "y": 114,
+                            "uniqueID": 857043,
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 69.5
+                                }
+                            ]
+                        }
+                    ],
+                    "allConnectors": [
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 857043
+                        }
+                    ],
+                    "fileTypeVersion": 1
                 },
                 {
                     "atomType": "Circle",
@@ -200,8 +199,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.4919472913616398,
-                    "y": 0.8275862068965518,
+                    "x": 0.4941434846266472,
+                    "y": 0.7739463601532567,
                     "uniqueID": 926596,
                     "ioValues": [
                         {
@@ -320,56 +319,38 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Molecule",
-            "name": "Maslow 4 Metal Arm Spacer",
-            "x": 0,
-            "y": 0,
-            "uniqueID": 858002,
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.47803806734992677,
+            "y": 0.47126436781609193,
+            "uniqueID": 658920,
             "ioValues": [],
-            "topLevel": true,
-            "allAtoms": [
-                {
-                    "atomType": "Molecule",
-                    "name": "Outline",
-                    "x": 0.20717423133235727,
-                    "y": 0.49808429118773945,
-                    "uniqueID": 659965,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.47803806734992677,
-                    "y": 0.47126436781609193,
-                    "uniqueID": 658920,
-                    "ioValues": [],
-                    "selectedColorIndex": "10"
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 659965,
-                    "ap2ID": 658920
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 658920
-                }
-            ],
-            "fileTypeVersion": 1
+            "selectedColorIndex": "10"
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.9853587115666179,
+            "y": 0.5,
+            "ioValues": []
         }
     ],
+    "allConnectors": [
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 659965,
+            "ap2ID": 658920
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 658920
+        }
+    ],
+    "fileTypeVersion": 1,
+    "filetypeVersion": 1,
     "circleSegmentSize": 2
 }
