@@ -4,3 +4,6 @@
 
 ![](/project.svg)
 
+<h3 style="font-size:20px;"><strong>Cutaways:</strong></h3>69.5 for Dewalt DW611, 65.5 for Makita
+
+

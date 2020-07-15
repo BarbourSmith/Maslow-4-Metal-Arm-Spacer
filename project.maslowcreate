@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Outline",
-            "x": 0.2049780380673499,
-            "y": 0.5019157088122606,
+            "x": 0.212298682284041,
+            "y": 0.4636015325670498,
             "uniqueID": 659965,
             "ioValues": [],
             "topLevel": false,
@@ -124,24 +124,33 @@
                     "topLevel": false,
                     "allAtoms": [
                         {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.2708638360175695,
+                            "y": 0.3448275862068966,
+                            "uniqueID": 857043,
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 65.5
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Readme",
+                            "name": "README",
+                            "x": 0.25109809663250365,
+                            "y": 0.6053639846743295,
+                            "uniqueID": 252759,
+                            "ioValues": [],
+                            "readmeText": "69.5 for Dewalt DW611, 65.5 for Makita"
+                        },
+                        {
                             "atomType": "Output",
                             "name": "Output",
                             "x": 0.9853587115666179,
                             "y": 0.5,
                             "ioValues": []
-                        },
-                        {
-                            "atomType": "Circle",
-                            "name": "Circle",
-                            "x": 589,
-                            "y": 114,
-                            "uniqueID": 857043,
-                            "ioValues": [
-                                {
-                                    "name": "diameter",
-                                    "ioValue": 69.5
-                                }
-                            ]
                         }
                     ],
                     "allConnectors": [
