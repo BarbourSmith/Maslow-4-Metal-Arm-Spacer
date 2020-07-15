@@ -134,32 +134,19 @@
                     "fileTypeVersion": 1
                 },
                 {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.13469985358711567,
-                    "y": 0.8122605363984674,
-                    "uniqueID": 710932,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 47
-                        }
-                    ]
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.28257686676427524,
-                    "y": 0.793103448275862,
-                    "uniqueID": 567662,
+                    "x": 0.41434846266471453,
+                    "y": 0.5287356321839081,
+                    "uniqueID": 926596,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 72
+                            "ioValue": 0
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 7
                         },
                         {
                             "name": "zDist",
@@ -170,8 +157,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.38506588579795026,
-                    "y": 0.7969348659003832,
+                    "x": 0.3067349926793558,
+                    "y": 0.6934865900383141,
                     "uniqueID": 842313,
                     "ioValues": [
                         {
@@ -189,33 +176,46 @@
                     ]
                 },
                 {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 0.7598828696925329,
-                    "y": 0.4904214559386973,
-                    "uniqueID": 285268,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.4941434846266472,
-                    "y": 0.7739463601532567,
-                    "uniqueID": 926596,
+                    "x": 0.20351390922401172,
+                    "y": 0.735632183908046,
+                    "uniqueID": 567662,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 72
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 7
+                            "ioValue": 0
                         },
                         {
                             "name": "zDist",
                             "ioValue": 0
                         }
                     ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.07247437774524158,
+                    "y": 0.7662835249042146,
+                    "uniqueID": 710932,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 47
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.7598828696925329,
+                    "y": 0.4904214559386973,
+                    "uniqueID": 285268,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Extrude",
@@ -276,17 +276,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 710932,
-                    "ap2ID": 567662
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 567662,
-                    "ap2ID": 842313
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 926596,
+                    "ap2ID": 634415
                 },
                 {
                     "ap1Name": "geometry",
@@ -299,15 +292,22 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 285268,
-                    "ap2ID": 141237
+                    "ap1ID": 567662,
+                    "ap2ID": 842313
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 3",
-                    "ap2Primary": false,
-                    "ap1ID": 926596,
-                    "ap2ID": 634415
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 710932,
+                    "ap2ID": 567662
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 285268,
+                    "ap2ID": 141237
                 },
                 {
                     "ap1Name": "geometry",
