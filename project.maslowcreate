@@ -237,8 +237,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bump for cables",
-                    "x": 0.41727672035139096,
-                    "y": 0.9118773946360152,
+                    "x": 0.41068814055636893,
+                    "y": 0.9157088122605365,
                     "uniqueID": 592597,
                     "ioValues": [],
                     "topLevel": false,
@@ -290,11 +290,11 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": 72
+                                    "ioValue": 68
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 20
+                                    "ioValue": 25
                                 },
                                 {
                                     "name": "zDist",
